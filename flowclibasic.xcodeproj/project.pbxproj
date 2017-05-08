@@ -110,6 +110,7 @@
 				TargetAttributes = {
 					40B49A521EC04BF400CC6955 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = U54PFP9Y5C;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -272,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U54PFP9Y5C;
 				INFOPLIST_FILE = flowclibasic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.atpking.flowclibasic;
@@ -283,6 +285,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U54PFP9Y5C;
 				INFOPLIST_FILE = flowclibasic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.atpking.flowclibasic;
@@ -309,6 +312,7 @@
 				40B49A6C1EC04BF500CC6955 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
