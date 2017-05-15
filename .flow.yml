@@ -2,7 +2,7 @@
 env:
 - FLOW_YAML_FROM=flow-cli
 flows:
-- name: default_flow_by_cli
+- name: default_flow_by_cli1
   language: objc
   version: Xcode8
   env: 
