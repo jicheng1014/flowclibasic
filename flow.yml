@@ -1,0 +1,26 @@
+---
+env:
+- FLOW_YAML_FROM=flow-cli
+flows:
+- name: default_flow_by_cli
+  language: objc
+  version: Xcode8
+  env: 
+  trigger:
+    push:
+    - develop
+    - master
+  steps:
+  - name: init
+    plugin:
+      name: objc_init
+  - name: git
+    plugin:
+      name: git
+  - name: install
+    plugin:
+      name: objc_init
+  - name: build
+    scripts:
+    - fastlane gym build --project ./flowclibasic.xcodeproj --scheme flowclibasic
+      --output_name flowclibasic --clean false --export_method ad-hoc --silent
